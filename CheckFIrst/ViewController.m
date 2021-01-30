@@ -21,7 +21,26 @@
     // Do any additional setup after loading the view.
     
     label.text = @"Hello World";
+    
+    [self changeText];
+    
+    [self changeText1];
 }
 
+-(void) changeText
+{
+    for (int i=0; i < 10; i++)
+    {
+        NSLog(@"\nHello World %d", i);
+    }
+}
+
+-(void) changeText1
+{
+    for (int i=0; i < 10; i++)
+    {
+        NSLog(@"\nHello World %d", i);
+    }
+}
 
 @end
