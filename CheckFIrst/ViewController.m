@@ -29,6 +29,8 @@
 
 -(void) changeText
 {
+    label.text = @"Hello World";
+    
     for (int i=0; i < 10; i++)
     {
         NSLog(@"\nHello World %d", i);
@@ -37,6 +39,8 @@
 
 -(void) changeText1
 {
+    label.text = @"Hello World";
+    
     for (int i=0; i < 10; i++)
     {
         NSLog(@"\nHello World %d", i);
