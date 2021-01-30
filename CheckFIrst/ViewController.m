@@ -14,9 +14,13 @@
 
 @implementation ViewController
 
+@synthesize label;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    label.text = @"Hello World";
 }
 
 
